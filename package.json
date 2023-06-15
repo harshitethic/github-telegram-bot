@@ -1,0 +1,30 @@
+{
+  "name": "github-telegram-bot",
+  "version": "1.0.0",
+  "description": "Use `npm install <pkg>` afterwards to install a package and",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshitethic/github-telegram-bot.git"
+  },
+  "keywords": [
+    "git",
+    "clone",
+    "bot"
+  ],
+  "author": "Harshit Sharma, aka Harshitethic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harshitethic/github-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/harshitethic/github-telegram-bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.53.0",
+    "simple-git": "^2.64.0",
+    "archiver": "^5.3.0",
+    "axios": "^0.24.0"
+  }
+}
